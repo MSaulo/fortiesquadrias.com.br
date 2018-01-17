@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
         $.ajax({
             crossDomain: true,
             type: "POST",
-            url: "https://script.google.com/macros/s/AKfycbxPUGlxYBUJ6gYnDhA3jm2dxQv1Px-DZUtUnYLqG7Qqz-djrqY/exec",
+            url: "https://script.google.com/macros/s/AKfycbx8C6XqjqowfT5a7uM-TT0gfn1nbH1SaIjjoiEqq5_VB6bxHZy2/exec",
             data: str,
             success: function(msg){
 
@@ -100,6 +100,7 @@ jQuery(document).ready(function($) {
                     $("#sendmessage").removeClass("show");
                     $("#errormessage").addClass("show");
                     $('#errormessage').html("Menssagem não enviada, tente novamente!");
+                    $('form#contact_form').slideUp(1000);
                 }
             }
         });
