@@ -512,21 +512,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Get Started Section
 --------------------------------*/
-#about {
+#sobre-nos {
     background: #fff;
     padding: 80px 0;
 }
 
-#about .about-container {
+#sobre-nos .about-container {
     background: url(../img/about-img.jpg) no-repeat -100px top;
     background-size: cover;
 }
 
-#about .about-content {
+#sobre-nos .about-content {
     background: #fff;
 }
 
-#about .about-title {
+#sobre-nos .about-title {
     color: #121139;
     font-weight: 700;
     font-size: 20px;
@@ -535,29 +535,29 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-bottom: 1px solid #ebebeb;
 }
 
-#about .about-text {
+#sobre-nos .about-text {
     line-height: 26px;
     text-align: justify;
     font-size: 15px;
 }
 
-#about .about-text:last-child {
+#sobre-nos .about-text:last-child {
     margin-bottom: 0;
 }
 
 /* Services Section
 --------------------------------*/
-#services {
+#nossos-servicos {
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
     background-size: cover;
     padding: 80px 0 60px 0;
 }
 
-#services .service-item {
+#nossos-servicos .service-item {
     margin-bottom: 20px;
 }
 
-#services .service-icon {
+#nossos-servicos .service-icon {
     float: left;
     background: #091656;
     padding: 16px;
@@ -566,37 +566,37 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 1px solid #091656;
 }
 
-#services .service-icon i {
+#nossos-servicos .service-icon i {
     color: #fff;
     font-size: 24px;
 }
 
-#services .service-item:hover .service-icon {
+#nossos-servicos .service-item:hover .service-icon {
     background: #fff;
 }
 
-#services .service-item:hover .service-icon i {
+#nossos-servicos .service-item:hover .service-icon i {
     color: #091656;
 }
 
-#services .service-title {
+#nossos-servicos .service-title {
     margin-left: 80px;
     font-weight: 700;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
 
-#services .service-title a {
+#nossos-servicos .service-title a {
     color: #111;
 }
 
-#services .service-description {
+#nossos-servicos .service-description {
     margin-left: 80px;
     line-height: 24px;
 }
 
 @media (max-width: 1200px) {
-    #services {
+    #nossos-servicos {
         background-attachment: scroll;
     }
 }
@@ -779,50 +779,50 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Team Section
 --------------------------------*/
-#team {
+#produtos {
     background: #fff;
     padding: 80px 0 60px 0;
 }
 
-#team .member {
+#produtos .member {
     text-align: center;
     margin-bottom: 20px;
 }
 
-#team .member .pic {
+#produtos .member .pic {
     margin-bottom: 15px;
     overflow: hidden;
     height: 260px;
 }
 
-#team .member .pic img {
+#produtos .member .pic img {
     height: 100%;
 }
 
-#team .member h4 {
+#produtos .member h4 {
     font-weight: 700;
     margin-bottom: 0;
 }
 
-#team .member span {
+#produtos .member span {
     font-style: italic;
     display: block;
     font-size: 13px;
 }
 
-#team .member .social {
+#produtos .member .social {
     margin-top: 15px;
 }
 
-#team .member .social a {
+#produtos .member .social a {
     color: #b3b3b3;
 }
 
-#team .member .social a:hover {
+#produtos .member .social a:hover {
     color: #03C4EB;
 }
 
-#team .member .social i {
+#produtos .member .social i {
     font-size: 18px;
     margin: 0 2px;
 }
@@ -850,12 +850,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Contact Section
 --------------------------------*/
-#contact {
+#contato {
     background: #f7f7f7;
     padding: 80px 0 40px 0;
 }
 
-#contact .info {
+#contato .info {
     color: #333333;
     font-weight: bold;
 }
@@ -869,23 +869,23 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #151985;
 }
 
-#contact .info i {
+#contato .info i {
     font-size: 32px;
     color: #121139;
     float: left;
 }
 
-#contact .info p {
+#contato .info p {
     padding: 0 0 10px 50px;
     line-height: 24px;
 }
 
-#contact .info img {
+#contato .info img {
     width: 100%;
     margin-bottom: 20px;
 }
 
-#contact .form #sendmessage {
+#contato .form #sendmessage {
     color: #049c00;
     border: 1px solid #049c00;
     display: none;
@@ -895,7 +895,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 15px;
 }
 
-#contact .form #errormessage {
+#contato .form #errormessage {
     color: red;
     display: none;
     border: 1px solid red;
@@ -905,11 +905,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+#contato .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
     display: block;
 }
 
-#contact .form .validation {
+#contato .form .validation {
     color: red;
     display: none;
     margin: 0 0 20px;
@@ -917,12 +917,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 13px;
 }
 
-#contact .form input, #contact .form textarea {
+#contato .form input, #contact .form textarea {
     border-radius: 0;
     box-shadow: none;
 }
 
-#contact .form button[type="submit"] {
+#contato .form button[type="submit"] {
     background: #121139;
     border: 0;
     padding: 10px 24px;
@@ -930,7 +930,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: 0.4s;
 }
 
-#contact .form button[type="submit"]:hover {
+#contato .form button[type="submit"]:hover {
     background: #1a1574;
 }
 
