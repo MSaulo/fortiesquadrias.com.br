@@ -524,6 +524,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #sobre-nos .about-content {
     background: #fff;
+    padding-left: 50px;
 }
 
 #sobre-nos .about-title {
@@ -543,6 +544,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #sobre-nos .about-text:last-child {
     margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+
+  #sobre-nos .about-content {
+      padding-left: 0;
+  }
+  
 }
 
 /* Services Section
